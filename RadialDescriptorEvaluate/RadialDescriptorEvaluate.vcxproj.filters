@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RadialDescriptor">
+      <UniqueIdentifier>{773836a4-8528-467e-80ef-14aa5cf98693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RadialDescriptor\Source Files">
+      <UniqueIdentifier>{96189c16-4ac0-4ea5-8d1a-877c79d2ee1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RadialDescriptor\Header Files">
+      <UniqueIdentifier>{7f22c539-3196-4a12-9d0a-3ec191bc770b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5">
+      <UniqueIdentifier>{e3ab8f05-0ccb-4d10-a82c-e0eb29adedba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Source Files\Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Generated Files\Debug">
+      <UniqueIdentifier>{8902f9d9-a075-4941-aceb-37b18522f28d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="RadialDescriptorEvaluateQt5\Generated Files\Release">
+      <UniqueIdentifier>{dd985be2-526c-4fd2-be7b-477bb5febd74}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OctRing.cpp">
+      <Filter>RadialDescriptor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointDescriptor.cpp">
+      <Filter>RadialDescriptor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointRing.cpp">
+      <Filter>RadialDescriptor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSignature.cpp">
+      <Filter>RadialDescriptor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialDescriptorQt5.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PleaseWaitWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalDescriptor.cpp">
+      <Filter>RadialDescriptor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PleaseWaitDialog.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculateSignalsWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RadialDescriptorQt5.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RadialDescriptorQt5.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PleaseWaitDialog.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PleaseWaitDialog.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TableWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TableWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PleaseWaitWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PleaseWaitWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_RadialDescriptorQt5.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculateSuccessRateWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculateSuccessRateForAllWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedWorkersFunctions.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateHistogramsWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CreateHistogramsWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CreateHistogramsWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CalculateSuccessRateWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CalculateSuccessRateWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CalculateSuccessRateForAllWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CalculateSuccessRateForAllWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CalculateSignalsWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CalculateSignalsWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="InitiateAllWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InitiateAllWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InitiateAllWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DebugWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DebugWidget.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PersistenceWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PersistenceWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PersistenceWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TotalProgress.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TotalProgress.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalProgress.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDataWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoadDataWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoadDataWorker.cpp">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RadialDescriptorQt5.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RadialDescriptorQt5.qrc">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files\Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PleaseWaitWidget.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RadialDescriptorQt5.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PleaseWaitWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HelpWidget.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PlotWidget.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TableWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TableWidget.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GraphicsViewWidget.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PleaseWaitDialog.h">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PleaseWaitDialog.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CreateHistogramsWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CalculateSuccessRateWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CalculateSuccessRateForAllWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CalculateSignalsWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InitiateAllWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DebugWidget.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DebugWidget.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PersistenceWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TotalProgress.h">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TotalProgress.ui">
+      <Filter>RadialDescriptorEvaluateQt5\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoadDataWorker.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OctRing.h">
+      <Filter>RadialDescriptor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointDescriptor.h">
+      <Filter>RadialDescriptor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointRing.h">
+      <Filter>RadialDescriptor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointSignature.h">
+      <Filter>RadialDescriptor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalDescriptor.hpp">
+      <Filter>RadialDescriptor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RadialDescriptorQt5.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PleaseWaitWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_HelpWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PlotWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TableWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GraphicsViewWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PleaseWaitDialog.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedWorkersFunctions.hpp">
+      <Filter>RadialDescriptorEvaluateQt5\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DebugWidget.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TotalProgress.h">
+      <Filter>RadialDescriptorEvaluateQt5\Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.txt">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rd.png">
+      <Filter>RadialDescriptorEvaluateQt5\Source Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RadialDescriptorEvaluate.rc" />
+  </ItemGroup>
+</Project>
